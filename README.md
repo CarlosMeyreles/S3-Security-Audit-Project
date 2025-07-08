@@ -1,4 +1,4 @@
-# S3-Security-Audit-Project
+# S3 Security Audit Project
 
 ## Objective
 
