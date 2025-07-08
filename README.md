@@ -1,10 +1,10 @@
-# S3 Security Audit Project
+# S3 Security Audit Lab
 
 ## Objective
 
-This hands-on cloud security project focused on auditing Amazon S3 bucket permissions and enforcing least privilege access. The goal was to simulate real-world misconfigurations in an AWS environment, detect potential security issues, and remediate them using IAM policies, bucket policies, and logging.
+This hands-on cloud security Lab focused on auditing Amazon S3 bucket permissions and enforcing least privilege access. The goal was to simulate real-world misconfigurations in an AWS environment, detect potential security issues, and remediate them using IAM policies, bucket policies, and logging.
 
-This project gave me direct experience in applying security best practices to cloud storage, using the AWS console and IAM tools to control and test access.
+This lab gave me direct experience in applying security best practices to cloud storage, using the AWS console and IAM tools to control and test access.
 
 ## Skills Learned
 
@@ -21,6 +21,16 @@ This project gave me direct experience in applying security best practices to cl
 - **AWS Policy Editor** – For JSON-based custom permission policies  
 - **AWS Console** – For manual access testing and auditing  
 - **Incognito Browser Sessions** – To test access as different users  
+
+### 📊 S3 Security Audit Architecture Diagram
+
+This diagram visually represents the cloud security architecture of this project. It highlights:
+
+- IAM user roles and permissions  
+- Access restrictions (Access Denied vs. Read-Only)  
+- Public vs. private bucket relationships  
+- Logging configuration for auditability  
+  ![2025-07-08_14-02-20](https://github.com/user-attachments/assets/bcca1a51-6ac3-4b04-9e7b-dd7ca1e0607e)
 
 ---
 
@@ -183,5 +193,6 @@ This audit process helps meet basic controls required by the **CIS Benchmarks** 
 - Blocked all public access  
 - Applied precise IAM and bucket policies  
 - Enabled server access logging  
+
 
 
